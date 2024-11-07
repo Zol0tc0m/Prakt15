@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/about"
+        android:title="Дополнительно">
+        <menu>
+            <group android:id="@+id/fragments">
+                <item android:id="@+id/firstFrag"
+                    android:title="Первый текст"/>
+                <item
+                    android:id="@+id/secondFrag"
+                    android:title="Второй текст"/>
+            </group>
+        </menu>
+    </item>
+
+</menu>

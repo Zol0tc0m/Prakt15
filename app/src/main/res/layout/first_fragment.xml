@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/amber"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/buttonClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Кнопка"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="50dp" />
+
+
+    <TextView
+        android:id="@+id/counterText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Нажатий: 0"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="100dp" />
+
+</FrameLayout>
